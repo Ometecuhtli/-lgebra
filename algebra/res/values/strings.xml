@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+   <string name="app_name">Álgebra elemental</string>
+
+   <string name="menu_principal">Menú principal</string>
+   <string name="menu_principal_opción1">Aritmética</string>
+   <string name="menu_principal_opción2">Expresiones</string>
+   <string name="menu_principal_opción3">Igualdades</string>
+
+   <string name="btnAceptar">Aceptar</string>
+   <string name="btnSiguiente">Siguiente</string>
+   <string name="btnAyuda">Ayuda</string>
+
+   <string name="msjCorrecto">Su respuesta es la correcta</string>
+   <string name="msjIncorrecto">Su respuesta no es acertada</string>
+
+   <string name="editEscribirValor">Escriba el valor de x:</string>
+
+</resources>

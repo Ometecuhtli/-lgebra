@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="@color/gray"
+   android:weightSum="4">
+
+   <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:id="@+id/imgMenúPrincipal"
+      android:background="@drawable/principal_land"
+      android:layout_weight="1" />
+
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="3">
+
+      <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/imgMenúPrincipalOpción1"
+         android:background="@drawable/aritmetica_land"
+         android:layout_weight="1" />
+
+      <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/imgMenúPrincipalOpción2"
+         android:background="@drawable/expresiones_land"
+         android:layout_weight="1" />
+
+      <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/imgMenúPrincipalOpción3"
+         android:background="@drawable/igualdades_land"
+         android:layout_weight="1" />
+
+   </LinearLayout>
+
+</LinearLayout>

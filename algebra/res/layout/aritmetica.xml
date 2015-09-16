@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="@color/gray"
+   android:weightSum="7" >
+
+   <ImageView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:id="@+id/imgMenúAritmética"
+      android:background="@drawable/aritmetica02"
+      android:layout_weight="1" />
+
+   <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_weight="5" >
+
+      <EditText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:inputType="number"
+         android:ems="3"
+         android:id="@+id/editOperando1" />
+
+      <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/imgOperador" />
+
+      <EditText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:inputType="number"
+         android:ems="3"
+         android:id="@+id/editOperando2" />
+
+      <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/imgIgual" />
+
+      <EditText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:inputType="number"
+         android:ems="4"
+         android:id="@+id/editRespuesta" />
+
+   </LinearLayout>
+
+   <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_weight="2" >
+
+      <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/btnAceptar"
+         android:text="@string/btnAceptar" />
+
+      <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/btnSiguiente"
+         android:text="@string/btnSiguiente" />
+
+   </LinearLayout>
+
+</LinearLayout>

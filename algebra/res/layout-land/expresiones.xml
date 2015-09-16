@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="@color/gray"
+   android:weightSum="9" >
+
+   <ImageView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:id="@+id/imgMenúExpresiones"
+      android:background="@drawable/expresiones02"
+      android:layout_weight="1" />
+
+   <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_weight="4" >
+
+      <TextView
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:inputType="text"
+         android:gravity="center"
+         android:id="@+id/textExpresión" />
+
+   </LinearLayout>
+
+   <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_weight="2" >
+
+      <EditText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/editEncuentraValor"
+         android:editable="false" />
+
+      <EditText
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:inputType="number"
+         android:ems="4"
+         android:id="@+id/editRespuesta" />
+
+   </LinearLayout>
+
+   <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:layout_weight="2" >
+
+      <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/btnAceptar"
+         android:text="@string/btnAceptar" />
+
+      <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/btnSiguiente"
+         android:text="@string/btnSiguiente" />
+
+   </LinearLayout>
+
+</LinearLayout>

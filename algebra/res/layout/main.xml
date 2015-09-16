@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="vertical"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:background="@color/gray"
+   android:weightSum="4">
+
+   <ImageView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:gravity="center"
+      android:background="@drawable/principal"
+      android:layout_weight="1" />
+
+   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:orientation="vertical"
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_weight="3" >
+
+      <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/imgMenúPrincipalOpción1"
+         android:text="@string/menu_principal_opción1"
+         android:background="@drawable/aritmetica"
+         android:layout_weight="1" />
+
+      <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/imgMenúPrincipalOpción2"
+         android:text="@string/menu_principal_opción2"
+         android:background="@drawable/expresiones"
+         android:layout_weight="1" />
+
+      <ImageView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/imgMenúPrincipalOpción3"
+         android:text="@string/menu_principal_opción3"
+         android:background="@drawable/igualdades"
+         android:layout_weight="1" />
+
+   </LinearLayout>
+
+</LinearLayout>
